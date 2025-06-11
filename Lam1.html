@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>College Science and Technology</title>
+    <link rel="icon" type="jpg" href="image/icon.jpg" />
+    <style>
+      table,
+      th,
+      td {
+        background-color: rgb(211, 206, 206);
+        border: 1px solid red;
+      }
+      th {
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .navbar {
+        background-color: darkblue;
+        display: flex;
+        width: 100%;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: left;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 16px;
+        display: inline-block;
+        transition: all 0.1s ease;
+        transform: scale(1);
+      }
+
+      .dropdown-btn {
+        color: rgb(255, 255, 255);
+        padding: 16px 20px;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background-color: rgb(10, 199, 117);
+      }
+      .dropdown:hover {
+        background-color: rgb(10, 199, 117);
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 300px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+      }
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+      .dropdown.show .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+   <div>
+    <marquee behavior="slide" direction="left" scrollamount="8">
+        <img src="image/banner.jpg" alt="image" style="width: 100%;">
+        </marquee>
+        </div>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="news.html" target="_blank">News</a>
+      <a href="faculty.html" target="_blank"> Faculty Member </a>
+      <a href="training.html" target="_blank">Professional Trianing</a>
+      <a href="video.html" target="_blank">Video COST</a>
+      <div class="dropdown">
+        <div class="dropdown-btn">Bachelor Programs</div>
+        <div class="dropdown-content">
+          <a href="IT.html" target="_blank"
+            >Information Technology <i style="color: blue">Since 2003</i></a
+          >
+
+          <a href="IT.html" target="_blank"
+            >Computer Science <i style="color: blue">Since 2003</i></a
+          >
+
+          <a href="IT.html" target="_blank"
+            >Electronics and telecommunications
+            <i style="color: blue">Since 2003</i></a
+          >
+
+          <a href="IT.html" target="_blank"
+            >Graphic Design And Multimedia
+            <i style="color: red">Since 2026</i></a
+          >
+
+          <a href="IT.html" target="_blank"
+            >Business Management Information Technology
+            <i style="color: red">Since 2026</i></a
+          >
+
+          <a href="IT.html" target="_blank"
+            >Network Engineering And Cyber Security
+            <i style="color: red">Since 2026</i></a
+          >
+
+          <a href="IT.html" target="_blank"
+            >Data Science And Artificial Intelligence
+            <i style="color: red">Since 2026</i></a
+          >
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropdown-btn">Computer Lap</div>
+        <div class="dropdown-content">
+          <a href="Lam1.html" target="_blank"> Multimedia Lap</a>
+          <a href="Lam2.html" target="_blank"> E-learning Lap</a>
+          <a href="Lam3.html" target="_blank"> Networking Lap</a>
+          <a href="Lam4.html" target="_blank"> IT Center Lap</a>
+        </div>
+      </div>
+    </div>
+    <p>
+      Welcome to College of Science and Technology of The University of
+      Cambodia. For everyone who wishes to pursue for any AA and BA degrees of
+      the study programs, please register now or visit the campus of The
+      University of Cambodia.
+    </p>
+    <h1 style="background-color: darkblue; color: aliceblue">
+      College Science and Technology Design Lap
+    </h1>
+    <img src="image/f.jpg" width="350" height="350"/>
+    <img src="image/g.jpg" width="350" height="350"/>
+    
+    <table style="width: 50%">
+      <caption>
+        Computer Laps University of Cambodia
+      </caption>
+      <tr style="text-align: center">
+        <th>Multimedia Lap</th>
+        <th>E-learning Lap</th>
+        <th>Networking Lap</th>
+        <th>IT Center Lap</th>
+      </tr>
+      <tr>
+        <td>Graphic Design</td>
+        <td>Graphic Design</td>
+        <td>Networking Design</td>
+        <td>Computer Applications</td>
+      </tr>
+      <tr>
+        <td>Computer Applications</td>
+        <td>Produce Video Content</td>
+      </tr>
+      <tr>
+        <td>Moboile Applications</td>
+      </tr>
+    </table>
+  </body>
+</html>
